@@ -55,6 +55,9 @@ Located in `LSTM_based_implementation.ipynb` and `GRU_based_implementation.ipynb
 The next price step is modeled as `S_{t+1} = S_t * exp(μ - 0.5σ^2 + σ Z)`.
 
 The model optimizes `μ` and `σ` to maximize the likelihood of observed prices.
+```markdown
+
+
 
 ### 2. Baseline Models
 
