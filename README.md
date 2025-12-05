@@ -12,29 +12,30 @@ Instead of predicting stock prices directly, the model uses a custom Wiener Proc
 
 The data and implementations are organized by market sector and stock ticker. The project covers 10 stocks across 5 major sectors:
 
-├── Technology
-│ ├── AAPL
-│ │ ├── LSTM_based_implementation.ipynb # Hybrid KAN-LSTM (Wiener Loss)
-│ │ ├── GRU_based_implementation.ipynb # Hybrid KAN-GRU (Wiener Loss)
-│ │ ├── KAN.ipynb # Baseline Stacked KAN (MSE Loss)
-│ │ ├── LSTM.ipynb # Baseline Standard LSTM (MSE Loss)
-│ │ └── GRU.ipynb # Baseline Standard GRU (MSE Loss)
-│ └── MSFT
-│ └── ... (Same structure as AAPL)
-├── Banking
-│ ├── JPM
-│ └── BAC
-├── Healthcare
-│ ├── JNJ
-│ └── PFE
-├── Entertainment
-│ ├── DIS
-│ └── NFLX
-├── Energy
-│ ├── CVX
-│ └── ENB
-└── Stock_Analysis
-└── statistical_analysis.ipynb # Descriptive stats, volatility plots, sector-wise return analysis
+- **`.`**
+  - **`├── Technology`**
+    - **`├── AAPL`**
+      - **`├── LSTM_based_implementation.ipynb`**  # Hybrid KAN-LSTM (Wiener Loss)
+      - **`├── GRU_based_implementation.ipynb`**   # Hybrid KAN-GRU (Wiener Loss)
+      - **`├── KAN.ipynb`**                        # Baseline Stacked KAN (MSE Loss)
+      - **`├── LSTM.ipynb`**                       # Baseline Standard LSTM (MSE Loss)
+      - **`└── GRU.ipynb`**                        # Baseline Standard GRU (MSE Loss)
+    - **`└── MSFT`**
+      - **`└── ...`**                              # Same structure as AAPL
+  - **`├── Banking`**
+    - **`├── JPM`**
+    - **`└── BAC`**
+  - **`├── Healthcare`**
+    - **`├── JNJ`**
+    - **`└── PFE`**
+  - **`├── Entertainment`**
+    - **`├── DIS`**
+    - **`└── NFLX`**
+  - **`├── Energy`**
+    - **`├── CVX`**
+    - **`└── ENB`**
+  - **`└── Stock_Analysis`**
+    - **`└── statistical_analysis.ipynb`**        # Descriptive stats, volatility plots, sector-wise return analysis
 
 
 
