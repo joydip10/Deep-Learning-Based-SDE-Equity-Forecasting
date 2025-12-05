@@ -34,8 +34,8 @@ The data and implementations are organized by market sector and stock ticker. Th
   - **`├── Energy`**
     - **`├── CVX`**
     - **`└── ENB`**
-  - **`└── Stock_Analysis`**
-    - **`└── statistical_analysis.ipynb`**        # Descriptive stats, volatility plots, sector-wise return analysis
+  - **`└── Statistical Analysis`**
+    - **`└── stock analysis.ipynb`**        # Descriptive stats, volatility plots, sector-wise return analysis
 
 
 
