@@ -52,9 +52,10 @@ Located in `LSTM_based_implementation.ipynb` and `GRU_based_implementation.ipynb
   - **Output:** Two neurons representing instantaneous Drift ($\mu$) and Log-Volatility ($\log \sigma$)  
 - **Loss Function:** Custom Wiener Loss simulating the next price step using GBM:  
   $$
-  S_{t+1} = S_t \cdot \exp(\mu - 0.5\sigma^2 + \sigma Z)
-  $$  
-  Optimizes $\mu$ and $\sigma$ to maximize likelihood of observed prices
+S_{t+1} = S_t \cdot \exp(\mu - 0.5\sigma^2 + \sigma Z)
+$$
+
+The model optimizes $\mu$ and $\sigma$ to maximize the likelihood of observed prices.
 
 ### 2. Baseline Models
 
